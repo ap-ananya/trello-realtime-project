@@ -24,7 +24,7 @@ When a board or list is updated in one window, changes automatically reflect in 
 ---
 
 ## ⚙️ Setup Instructions
-1.Clone the Repository
+###1.Clone the Repository
 ```bash 
 git clone <your-repo-link>
 cd <repo-folder>
@@ -32,13 +32,13 @@ cd <repo-folder>
 
 ---
 
-2. Installing Dependencies
-BACKEND
+###2. Installing Dependencies
+####BACKEND
 ```bash
 cd backend
 npm install
 ```
-FRONTEND
+####FRONTEND
 ```bash
 cd ../frontend
 npm install
@@ -46,10 +46,10 @@ npm install
 ---
 
 ## 🔑 Trello API Setup
-1. Go to https://trello.com/app-key
-2. Copy your API Key.
-3. Click “Token” to generate your Access Token.
-4. Create a .env file in the backend folder and add:
+1. Go to [https://trello.com/app-key](https://trello.com/app-key)
+2. Copy your **API Key**.
+3. Click **“Token”** to generate your **Access Token**.
+4. Create a `.env` file in the backend folder and add:
 ```bash
 TRELLO_KEY=your_api_key
 TRELLO_TOKEN=your_access_token
@@ -58,7 +58,7 @@ PORT=5000
 ---
 
 ## 🌐 Registering the Webhook
-You need a publicly accessible URL for Trello to send webhook events.
+You need a **publicly accessible URL** for Trello to send webhook events.
 ### Using ngrok
 1.Start your backend server:
 ```bash
@@ -80,30 +80,32 @@ curl -X POST "https://api.trello.com/1/webhooks/?key=YOUR_KEY&token=YOUR_TOKEN" 
   "idModel": "YOUR_BOARD_ID"
 }'
 ```
+**Note:** Replace `YOUR_KEY`, `YOUR_TOKEN`, and `YOUR_BOARD_ID` with actual values from your Trello setup.
+
 ---
 
 ## 🧪 Running the App
-BACKEND
+###BACKEND
 ```BASH
 cd backend
 npm start
 ```
-FRONTEND
+###FRONTEND
 ```bash
 cd ../frontend
 npm start
 ```
-Now open two browser tabs pointing to the frontend app.
+Now open **two browser tabs** pointing to the frontend app.
 Any change in one tab should automatically reflect in the other — demonstrating real-time synchronization.
 
 ---
 
 ## 📬 CURL Examples
 Include a Postman collection or examples for the following APIs:
-1. Create Board
-2. Get All Boards
-3. Add Card
-4. Delete Card
+1. **Create Board**
+2. **Get All Boards**
+3. **Add Card**
+4. **Delete Card**
 
 Example:
 ```bash
@@ -113,11 +115,11 @@ curl -X POST "https://api.trello.com/1/boards/?name=MyTestBoard&key=YOUR_KEY&tok
 ---
 
 ## 🛠️ Technologies Used
-1. Frontend: React.js
-2. Backend: Node.js, Express.js
-3. Real-time: Socket.IO
-4. API: Trello REST API
-5. Tunneling: Ngrok
+1. **Frontend:** React.js
+2. **Backend:** Node.js, Express.js
+3. **Real-time:** Socket.IO
+4. **API:** Trello REST API
+5. **Tunneling:** Ngrok
 
 ---
 
