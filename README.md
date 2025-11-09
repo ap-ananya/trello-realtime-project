@@ -5,7 +5,7 @@ This project demonstrates **real-time synchronization** between two browser wind
 When a board or list is updated in one window, changes automatically reflect in another — simulating live Trello updates.
 ---
 
-# DEMO VIDEO
+# 💿DEMO VIDEO
 [https://drive.google.com/drive/folders/1YoH--DOayDz4MdoWB_GPQObiqqeRVpLW?usp=sharing](https://drive.google.com/drive/folders/1YoH--DOayDz4MdoWB_GPQObiqqeRVpLW?usp=sharing)
 
 ---
