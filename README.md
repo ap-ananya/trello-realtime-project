@@ -46,3 +46,37 @@ PORT=5000
 ## 🌐 Registering the Webhook
 You need a publicly accessible URL for Trello to send webhook events.
 ### Using ngrok
+1.Start your backend server:
+```bash
+npm start
+```
+2.In another terminal, run:
+```bash
+ngrok http 5000
+```
+3.Copy the forwarding URL shown by ngrok
+4.Use this URL to register your webhook:
+Example CURL command:
+```bash
+curl -X POST "https://api.trello.com/1/webhooks/?key=YOUR_KEY&token=YOUR_TOKEN" \
+-H "Content-Type: application/json" \
+-d '{
+  "description": "Realtime Sync Webhook",
+  "callbackURL": "https://abcd1234.ngrok-free.app/trello-webhook",
+  "idModel": "YOUR_BOARD_ID"
+}'
+```
+
+##🧪 Running the App
+BACKEND
+```BASH
+cd backend
+npm start
+```
+FRONTEND
+```bash
+cd ../frontend
+npm start
+```
+Now open two browser tabs pointing to the frontend app.
+Any change in one tab should automatically reflect in the other — demonstrating real-time synchronization.
