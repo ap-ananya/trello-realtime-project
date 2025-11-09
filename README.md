@@ -22,7 +22,7 @@ cd <repo-folder>
 
 ---
 
-## 2. Installing Dependencies
+2. Installing Dependencies
 BACKEND
 ```bash
 cd backend
@@ -34,5 +34,15 @@ cd ../frontend
 npm install
 ```
 ## 🔑 Trello API Setup
-1. Go to [API]
+1. Go to [API] (https://trello.com/app-key)
 2. Copy your API Key.
+3. Click “Token” to generate your Access Token.
+4. Create a .env file in the backend folder and add:
+```bash
+TRELLO_KEY=your_api_key
+TRELLO_TOKEN=your_access_token
+PORT=5000
+```
+## 🌐 Registering the Webhook
+You need a publicly accessible URL for Trello to send webhook events.
+### Using ngrok
