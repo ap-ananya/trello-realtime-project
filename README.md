@@ -15,5 +15,6 @@ README.md
 
 ## ⚙️ Setup Instructions
 1.Clone the Repository
-    ```git clone <your-repo-link>
+    ```bash 
+   git clone <your-repo-link>
    cd <repo-folder>```
