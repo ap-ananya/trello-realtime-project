@@ -7,8 +7,7 @@ When a board or list is updated in one window, changes automatically reflect in 
 ---
 
 ## 📁 Project Structure
-/
-├── **frontend/** (React application code)
-├── **backend/** (Node.js/Express/etc. server code)
-└── README.md
+**frontend/** (React application code)
+**backend/** (Node.js/Express/etc. server code)
+README.md
 
