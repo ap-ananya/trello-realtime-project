@@ -19,3 +19,20 @@ README.md
 git clone <your-repo-link>
 cd <repo-folder>
 ```
+
+---
+
+## 2. Installing Dependencies
+BACKEND
+```bash
+cd backend
+npm install
+```
+FRONTEND
+```bash
+cd ../frontend
+npm install
+```
+## 🔑 Trello API Setup
+1. Go to [API]
+2. Copy your API Key.
