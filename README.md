@@ -24,7 +24,7 @@ When a board or list is updated in one window, changes automatically reflect in 
 ---
 
 ## ⚙️ Setup Instructions
-###1.Clone the Repository
+### 1.Clone the Repository
 ```bash 
 git clone <your-repo-link>
 cd <repo-folder>
@@ -32,13 +32,13 @@ cd <repo-folder>
 
 ---
 
-###2. Installing Dependencies
-####BACKEND
+### 2. Installing Dependencies
+#### BACKEND
 ```bash
 cd backend
 npm install
 ```
-####FRONTEND
+#### FRONTEND
 ```bash
 cd ../frontend
 npm install
@@ -85,12 +85,12 @@ curl -X POST "https://api.trello.com/1/webhooks/?key=YOUR_KEY&token=YOUR_TOKEN" 
 ---
 
 ## 🧪 Running the App
-###BACKEND
+### BACKEND
 ```BASH
 cd backend
 npm start
 ```
-###FRONTEND
+### FRONTEND
 ```bash
 cd ../frontend
 npm start
@@ -122,12 +122,3 @@ curl -X POST "https://api.trello.com/1/boards/?name=MyTestBoard&key=YOUR_KEY&tok
 5. **Tunneling:** Ngrok
 
 ---
-
-
----
-
-✅ **Summary:**  
-- This `README.md` meets every point in the guidelines shown in your screenshot.  
-- You only need to add your **GitHub repo link**, **demo video link**, and optionally your **name**.  
-
-Would you like me to make a **README file (downloadable `.md`)** version for you so you can directly upload it to your repo?
