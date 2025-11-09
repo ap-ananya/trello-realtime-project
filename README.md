@@ -11,3 +11,9 @@ When a board or list is updated in one window, changes automatically reflect in 
 **backend/** (Node.js/Express/etc. server code)
 README.md
 
+---
+
+## ⚙️ Setup Instructions
+1.Clone the Repository
+   git clone <your-repo-link>
+   cd <repo-folder>
