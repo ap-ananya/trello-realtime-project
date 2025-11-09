@@ -34,7 +34,7 @@ cd ../frontend
 npm install
 ```
 ## 🔑 Trello API Setup
-1. Go to [API] (https://trello.com/app-key)
+1. Go to https://trello.com/app-key
 2. Copy your API Key.
 3. Click “Token” to generate your Access Token.
 4. Create a .env file in the backend folder and add:
